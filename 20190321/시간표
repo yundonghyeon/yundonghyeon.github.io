@@ -1,0 +1,87 @@
+<!DOCTYPEhtml> <!-- timetable.html -->
+<html>
+<head>
+ <meta charset="utf-8"/>
+ <meta name="viewport"content="width=device-width,initial-scale=1"/>
+ <style>
+  .subject_1{background-color:lightgreen;}
+  .subject_2{background-color:lightblue;}
+  .subject_3{background-color:crimson;}l
+  .subject_4{background-color:gray;}
+  .subject_5{background-color:indianred;}
+  .subject_6{background-color:orange;}
+  .subject_7{background-color:lightgray;}
+ </style>
+ <title>19년도 1학기 시간표</title>
+</head>
+<body>
+ <h2>2019년도 1학기 시간표</h2>
+ <table border=1;>
+ <thead>
+  <tr> <td></td> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th><th>토</th></tr>
+ </thead>
+ <tbody>
+  <tr>
+    <td><b>1교시</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>2교시</b></td>
+    <td class="subject_2" rowspan="2"><center>임베디드 소프트웨어(24414)</center></td>
+    <td></td>
+    <td></td>
+    <td class="subject_2" rowspan="2"><center>임베디드 소프트웨어(24414)</center></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>3교시</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="subject_3" rowspan="1"><center>경제학의 기본원리</center></td>
+  </tr>
+  <tr>
+    <td><b>4교시</b></td>
+    <td></td>
+    <td></td>
+    <td class="subject_1" rowspan="2"><center>인터넷 프로그래밍(24403)</center></td>
+  <tr>
+    <td><b>5교시</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="subject_1" rowspan="2"><center>인터넷 프로그래밍(24403)</center></td>
+    <td></td>
+    <td class="subject_4" rowspan="1"><center>인간과 복지</center></td>
+  </tr>
+  <tr>
+    <td><b>6교시</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  <tr>
+    <td><b>7교시</b></td>
+    <td></td>
+    <td class="subject_5" rowspan="2"><center>운영체제(24405)</center></td>
+    <td></td>
+    <td class="subject_6" rowspan="2"><center>캠퍼스 멘토링</center></td>
+    <td></td>
+  <tr>
+    <td><b>8교시</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <tr>
+    <td><b>9교시</b></td>
+    <td class="subject_5" rowspan="1"><center>운영체제(24405)</center></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+ </tbody>
+ </table>
+</body>
