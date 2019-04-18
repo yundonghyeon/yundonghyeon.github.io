@@ -1,17 +1,28 @@
 <!doctype html> <!-- homework(CPU).html -->
 <html>
 <head>
- <meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
- <title>CPU</title></head>
-<body>
- <section><script type="text/javascript">
+<title>CPU</title>
+</head>
+<section><div>
+  <form name="form">
+  <select name="test" onchange="changes(document.form.test.value)">
+    <option value="">CPU</option>
+    <option value="1">인텔</option>
+    <option value="2">라이젠</option>
+  </select><br/>
+    <select name="test2">
+    <option>시리즈</option>
+  </select>
+</form>
+</div>
+<script type="text/javascript">
   function changes(fr) {
     if(fr==1) {
     //뿌려줄값을 배열로정렬
-    num = new Array("1)첫번째목록","1)두번째목록","1)세번째목록");
+    num = new Array("i3-8350k","i5-8600k","i7-8700k");
     vnum = new Array("1","2","3");
     } else if(fr==2) {
-      num = new Array("2)첫번째목록","2)두번째목록","2)세번째목록");
+      num = new Array("AMD-7-1800X","AMD-7-1700X","AMD-5-1600X");
     vnum = new Array("1","2","3");
     }
     // 셀렉트안의 리스트를 기본값으로 한다..
@@ -23,27 +34,7 @@
     document.form.test2.options[i] = new Option(num[i],vnum[i]);
   }
 }
+
 </script>
-<div>
- <form name="form">
-  <select name="test" onchange="changes(document.form.test.value)">
-    <option value="CPU">CPU</option>
-    <option value="인텔">인텔</option>
-    <option value="라이젠">라이젠</option>
-  </select>
-    <select name="test">
-    <option>시리즈</option>
-    <option>i3-8350k</option>
-    <option>i5-8600k</option>
-    <option>i7-8700k</option>
-    <option>AMD-7-1800X</option>
-    <option>AMD-7-1700Xk</option>
-    <option>AMD-5-1600X</option>
-    <option>AMD-5-1500X</option>
-    </select>
-  <button type="submit">입력</button>
   <input type="reset" name="reset1" value="취소"/>
- </section>
-</select>
-</div>
-</body></html>
+</section></html>
